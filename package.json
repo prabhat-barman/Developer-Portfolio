@@ -1,5 +1,6 @@
 {
   "name": "Developer Portfolio",
+  "homepage": "https://prabhat-barman.github.io/Developer-Portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -54,9 +55,9 @@
     "vite": "6.3.5"
   },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --outDir dist",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
-  }
+  "dev": "vite",
+  "build": "vite build --outDir dist",
+  "preview": "vite preview",
+  "deploy": "gh-pages -d dist"
+}
 }
