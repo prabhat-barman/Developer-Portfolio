@@ -6,17 +6,17 @@ export const PERSONAL_INFO = {
   name: "Prabhat Barman",
   role: "Software Engineer (Frontend)",
   title: "Frontend Engineer",
-  experience: "3+ Years",
+  experience: "4 Years",
   location: "Bhopal",
   phone: "+91 7879029044",
   email: "prabhatbarman98@gmail.com",
-  linkedin: "https://linkedin.com/in/prabhat-barman", // Update with actual link
-  github: "https://github.com/prabhatbarman", // Update with actual link
+  linkedin: "https://www.linkedin.com/in/prabhat-barman/", // Update with actual link
+  github: "https://github.com/prabhat-barman", // Update with actual link
 };
 
 export const HERO = {
   greeting: "Hi, I'm Prabhat Barman",
-  tagline: "Frontend Engineer with 3+ years of experience in React, Redux, TypeScript, and performance-optimized UI development.",
+  tagline: "Frontend Engineer with 4 years of experience in React, Redux, TypeScript, and performance-optimized UI development.",
   roles: [
     "Frontend Engineer",
     "React.js Developer",
@@ -100,7 +100,7 @@ export const EXPERIENCE = {
     },
     {
       role: "Associate Software Engineer",
-      company: "Netlink Strategic Solutions",
+      company: "Netlink Strategic Solutions Pvt. Ltd.",
       period: "2022 – 2024",
       location: "Bhopal",
       achievements: [
@@ -112,7 +112,7 @@ export const EXPERIENCE = {
     },
     {
       role: "Trainee Consultant",
-      company: "Netlink Software Pvt. Ltd.",
+      company: "Netlink Strategic Solutions Pvt. Ltd.",
       period: "2021 – 2022",
       location: "Bhopal",
       achievements: [

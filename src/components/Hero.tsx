@@ -14,7 +14,7 @@ export function Hero() {
 
   const handleDownloadResume = () => {
     // Add your resume PDF link here
-    window.open('/resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/1AtdL9ThsKviz_FoconPljoSiKu9ZGKGi/view?usp=sharing', '_blank');
   };
 
   return (
