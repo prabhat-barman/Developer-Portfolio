@@ -44,7 +44,7 @@ export const ABOUT = {
   ],
   industries: ["Automotive", "Healthcare", "HRMS"],
   stats: [
-    { value: 3, label: "Years Experience", suffix: "+" },
+    { value: 4, label: "Years Experience", suffix: "+" },
     { value: 15, label: "Projects Completed", suffix: "+" },
     { value: 40, label: "Performance Improvement", suffix: "%" },
     { value: 30, label: "Code Reusability", suffix: "%" },
@@ -89,7 +89,7 @@ export const EXPERIENCE = {
     {
       role: "Software Engineer",
       company: "Netlink Software Pvt. Ltd.",
-      period: "2024 – Present",
+      period: "2023 – Present",
       location: "Bhopal",
       achievements: [
         "Delivered production-level frontend features in automotive, healthcare, and HRMS domains",
@@ -101,7 +101,7 @@ export const EXPERIENCE = {
     {
       role: "Associate Software Engineer",
       company: "Netlink Strategic Solutions Pvt. Ltd.",
-      period: "2022 – 2024",
+      period: "2022 – 2023",
       location: "Bhopal",
       achievements: [
         "Built real-time React features with WebSocket, achieving 30% faster data updates",
