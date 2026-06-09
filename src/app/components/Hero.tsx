@@ -73,7 +73,7 @@ export default function Hero() {
               className="flex flex-wrap gap-4 mb-8"
             >
               <button
-                onClick={() => window.open('#', '_blank')}
+                onClick={() => window.open('https://drive.google.com/file/d/1aCCJpRj8gakAKSMC9389F8Gzs2SHhWD2/view?usp=sharing', '_blank')}
                 className="group px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium
                          hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2"
               >

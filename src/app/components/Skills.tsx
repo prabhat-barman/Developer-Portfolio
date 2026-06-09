@@ -1,8 +1,20 @@
 import { motion } from 'motion/react';
 import { useInView } from 'motion/react';
 import { useRef } from 'react';
-import { FaReact, FaNodeJs, FaGitAlt, FaHtml5, FaCss3Alt, FaSass } from 'react-icons/fa';
-import { SiTypescript, SiJavascript, SiTailwindcss, SiRedux, SiBootstrap, SiJest } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaGitAlt, FaHtml5, FaCss3Alt, FaSass, FaAndroid, FaChartBar, FaApple, FaBell } from 'react-icons/fa';
+import {
+  SiTypescript,
+  SiJavascript,
+  SiTailwindcss,
+  SiRedux,
+  SiBootstrap,
+  SiJest,
+  SiReactquery,
+  SiFirebase,
+  SiAxios,
+  SiEslint,
+  SiIos,
+} from 'react-icons/si';
 
 export default function Skills() {
   const ref = useRef(null);
@@ -13,10 +25,12 @@ export default function Skills() {
       title: 'Frontend',
       skills: [
         { name: 'React.js', icon: <FaReact />, level: 95 },
-        { name: 'React Native', icon: <FaReact />, level: 90 },
+        { name: 'React Native', icon: <FaReact />, level: 92 },
         { name: 'TypeScript', icon: <SiTypescript />, level: 90 },
         { name: 'JavaScript', icon: <SiJavascript />, level: 95 },
-        { name: 'Redux', icon: <SiRedux />, level: 85 },
+        { name: 'Redux / Redux Toolkit', icon: <SiRedux />, level: 85 },
+        { name: 'React Query (TanStack)', icon: <SiReactquery />, level: 88 },
+        { name: 'Recharts', icon: <FaChartBar />, level: 80 },
       ],
     },
     {
@@ -30,13 +44,26 @@ export default function Skills() {
       ],
     },
     {
+      title: 'Mobile',
+      skills: [
+        { name: 'iOS', icon: <SiIos />, level: 85 },
+        { name: 'Android', icon: <FaAndroid />, level: 85 },
+        { name: 'React Navigation', icon: <FaReact />, level: 90 },
+        { name: 'Push Notifications (FCM)', icon: <FaBell />, level: 85 },
+      ],
+    },
+    {
       title: 'Backend & Tools',
       skills: [
         { name: 'Node.js', icon: <FaNodeJs />, level: 75 },
         { name: 'REST APIs', icon: <FaNodeJs />, level: 90 },
-        { name: 'Git', icon: <FaGitAlt />, level: 90 },
-        { name: 'Jest', icon: <SiJest />, level: 80 },
+        { name: 'Axios', icon: <SiAxios />, level: 90 },
+        { name: 'Firebase', icon: <SiFirebase />, level: 85 },
+        { name: 'OAuth (Google / Apple)', icon: <FaApple />, level: 85 },
         { name: 'WebSockets', icon: <FaNodeJs />, level: 80 },
+        { name: 'Git', icon: <FaGitAlt />, level: 90 },
+        { name: 'Jest', icon: <SiJest />, level: 85 },
+        { name: 'ESLint / Prettier', icon: <SiEslint />, level: 90 },
       ],
     },
   ];
@@ -58,7 +85,7 @@ export default function Skills() {
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full" />
         </motion.div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skillCategories.map((category, categoryIndex) => (
             <motion.div
               key={category.title}
