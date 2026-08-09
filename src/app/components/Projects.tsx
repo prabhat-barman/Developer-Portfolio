@@ -25,6 +25,23 @@ export default function Projects() {
     links: ProjectLink[];
   }> = [
     {
+      title: 'WellValet — Canadian Grocery & Allergen Scanner',
+      description:
+        'Canadian grocery & beauty barcode scanner providing instant personalized wellness scores, allergen alerts, and OCR ingredient safety analysis tailored to Canadian shoppers. Built with zero ads and PIPEDA compliance across iOS, Android, and Web.',
+      image: 'https://images.unsplash.com/photo-1604719312566-8912e9227c6a?w=800&h=600&fit=crop',
+      tags: ['React Native', 'iOS', 'Android', 'TypeScript', 'OCR / ML Kit', 'PIPEDA'],
+      features: ['Barcode & OCR Scanner', 'Allergen Detection', 'Personalized Wellness Score', 'PIPEDA Compliant'],
+      links: [
+        { label: 'iOS App', href: 'https://apps.apple.com/in/app/wellvalet/id6778571808', icon: <FaApple /> },
+        {
+          label: 'Play Store',
+          href: 'https://play.google.com/store/apps/details?id=com.cruiseanalytix.wellvalet',
+          icon: <FaGooglePlay />,
+        },
+        { label: 'Website', href: 'https://www.wellvalet.com/', icon: <FiGlobe />, primary: true },
+      ],
+    },
+    {
       title: 'Language Academy — PTE Prep',
       description:
         'Cross-platform PTE Academic & PTE Core test-prep suite serving 500K+ students. AI-scored mock tests across all 22 question types, real-time speaking analysis with pronunciation & fluency scoring, weekly prediction files, and detailed score breakdowns. Built across web, iOS, and Android.',
@@ -39,6 +56,23 @@ export default function Projects() {
           icon: <FaGooglePlay />,
         },
         { label: 'Website', href: 'https://www.languageacademy.com.au/pte-core', icon: <FiGlobe />, primary: true },
+      ],
+    },
+    {
+      title: 'Language Academy — NAATI CCL Prep',
+      description:
+        'Comprehensive NAATI CCL (Credentialed Community Language) test-prep suite supporting 8+ languages including Hindi, Punjabi, Urdu, Nepali, Bangla, Telugu, Tamil, and Sinhalese. Features 2,000+ solved vocabulary terms, 80+ practice dialogues, and 5 full-length exam mock tests.',
+      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop',
+      tags: ['React Native', 'React.js', 'TypeScript', 'Audio Engine', 'Mock Tests', 'IAP'],
+      features: ['2,000+ Solved Vocab', '80+ Practice Dialogues', '8 Languages', 'Full Mock Tests'],
+      links: [
+        { label: 'iOS App', href: 'https://apps.apple.com/au/app/la-ccl/id1536541464', icon: <FaApple /> },
+        {
+          label: 'Play Store',
+          href: 'https://play.google.com/store/apps/details?id=com.languageacademy.naati',
+          icon: <FaGooglePlay />,
+        },
+        { label: 'Website', href: 'https://www.languageacademy.com.au/mock-test', icon: <FiGlobe />, primary: true },
       ],
     },
     {
