@@ -59,23 +59,6 @@ export default function Projects() {
       ],
     },
     {
-      title: 'Language Academy — NAATI CCL Prep',
-      description:
-        'Comprehensive NAATI CCL (Credentialed Community Language) test-prep suite supporting 8+ languages including Hindi, Punjabi, Urdu, Nepali, Bangla, Telugu, Tamil, and Sinhalese. Features 2,000+ solved vocabulary terms, 80+ practice dialogues, and 5 full-length exam mock tests.',
-      image: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop',
-      tags: ['React Native', 'React.js', 'TypeScript', 'Audio Engine', 'Mock Tests', 'IAP'],
-      features: ['2,000+ Solved Vocab', '80+ Practice Dialogues', '8 Languages', 'Full Mock Tests'],
-      links: [
-        { label: 'iOS App', href: 'https://apps.apple.com/au/app/la-ccl/id1536541464', icon: <FaApple /> },
-        {
-          label: 'Play Store',
-          href: 'https://play.google.com/store/apps/details?id=com.languageacademy.naati',
-          icon: <FaGooglePlay />,
-        },
-        { label: 'Website', href: 'https://www.languageacademy.com.au/mock-test', icon: <FiGlobe />, primary: true },
-      ],
-    },
-    {
       title: 'SiriusXM Connected Vehicle',
       description:
         'Real-time connected-vehicle telemetry dashboard for SiriusXM with WebSocket-based live data streaming, vehicle health monitoring, and infotainment analytics for the in-car experience.',
