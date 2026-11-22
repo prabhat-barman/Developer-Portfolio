@@ -1,0 +1,5 @@
+# robots.txt for https://prabhat-barman.github.io/Developer-Portfolio/
+User-agent: *
+Allow: /
+
+Sitemap: https://prabhat-barman.github.io/Developer-Portfolio/sitemap.xml
