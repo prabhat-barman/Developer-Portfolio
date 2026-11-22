@@ -70,6 +70,22 @@
       }
     </script>
 
+    <!-- Analytics & Interaction Tracker -->
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        document.querySelectorAll('a[href*="Resume"], a[download]').forEach(function (btn) {
+          btn.addEventListener('click', function () {
+            if (typeof gtag === 'function') {
+              gtag('event', 'download_resume', {
+                event_category: 'engagement',
+                event_label: 'Resume Download'
+              });
+            }
+          });
+        });
+      });
+    </script>
+
     <style>
       html,
       body {

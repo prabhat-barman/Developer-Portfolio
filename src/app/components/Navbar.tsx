@@ -86,6 +86,15 @@ export default function Navbar() {
                     )}
                   </motion.button>
                 ))}
+                <a
+                  href={`${import.meta.env.BASE_URL}Prabhat_Barman_Resume.pdf`}
+                  download="Prabhat_Barman_Resume.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-4 py-1.5 text-sm font-medium border border-blue-500/60 rounded-md text-blue-400 hover:bg-blue-500/10 transition-colors"
+                >
+                  Resume
+                </a>
               </div>
             </div>
 
@@ -119,6 +128,15 @@ export default function Navbar() {
                   {link.name}
                 </button>
               ))}
+              <a
+                href={`${import.meta.env.BASE_URL}Prabhat_Barman_Resume.pdf`}
+                download="Prabhat_Barman_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full text-center px-4 py-2 mt-2 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-medium transition-all"
+              >
+                Download Resume
+              </a>
             </div>
           </motion.div>
         )}

@@ -72,14 +72,17 @@ export default function Hero() {
               transition={{ delay: 0.6 }}
               className="flex flex-wrap gap-4 mb-8"
             >
-              <button
-                onClick={() => window.open('https://drive.google.com/file/d/1XJ9tTSH5vvmdsJXgknPbKwhBXXyh3xXs/view?usp=sharing', '_blank')}
+              <a
+                href={`${import.meta.env.BASE_URL}Prabhat_Barman_Resume.pdf`}
+                download="Prabhat_Barman_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg font-medium
-                         hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2"
+                         hover:shadow-lg hover:shadow-blue-500/50 transition-all duration-300 flex items-center gap-2 text-white"
               >
                 <FiDownload className="group-hover:animate-bounce" />
                 Download Resume
-              </button>
+              </a>
 
               <button
                 onClick={() => scrollToSection('contact')}
