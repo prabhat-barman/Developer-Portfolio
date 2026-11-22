@@ -55,7 +55,7 @@ export default function Projects() {
           href: 'https://play.google.com/store/search?q=language+academy&c=apps&hl=en_IN',
           icon: <FaGooglePlay />,
         },
-        { label: 'Website', href: 'https://www.languageacademy.com.au/pte-core', icon: <FiGlobe />, primary: true },
+        { label: 'Website', href: 'https://www.languageacademy.com.au/', icon: <FiGlobe />, primary: true },
       ],
     },
     {
