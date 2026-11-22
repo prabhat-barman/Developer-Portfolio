@@ -41,23 +41,7 @@ export default function Projects() {
         { label: 'Website', href: 'https://www.wellvalet.com/', icon: <FiGlobe />, primary: true },
       ],
     },
-    {
-      title: 'Language Academy — PTE Prep',
-      description:
-        'Cross-platform PTE Academic & PTE Core test-prep suite serving 500K+ students. AI-scored mock tests across all 22 question types, real-time speaking analysis with pronunciation & fluency scoring, weekly prediction files, and detailed score breakdowns. Built across web, iOS, and Android.',
-      image: 'https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800&h=600&fit=crop',
-      tags: ['React Native', 'React.js', 'TypeScript', 'React Query', 'Firebase', 'IAP'],
-      features: ['AI Mock Tests', 'Speaking Analysis', '500K+ Students', 'Cross-Platform'],
-      links: [
-        { label: 'iOS App', href: 'https://apps.apple.com/in/app/pte-practice-ai-mock-tests/id6443614190', icon: <FaApple /> },
-        {
-          label: 'Play Store',
-          href: 'https://play.google.com/store/search?q=language+academy&c=apps&hl=en_IN',
-          icon: <FaGooglePlay />,
-        },
-        { label: 'Website', href: 'https://www.languageacademy.com.au/', icon: <FiGlobe />, primary: true },
-      ],
-    },
+
     {
       title: 'SiriusXM Connected Vehicle',
       description:
